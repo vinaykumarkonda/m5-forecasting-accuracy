@@ -1,36 +1,14 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Quick Summary - This repository consists code for both model training and application code for deployment of trained model using streamlit package
+* Veraion - 1.1
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact"# m5-forecasting-accuracy" 
-"# m5-forecasting-accuracy" 
-"# m5-forecasting-accuracy" 
-"# m5-forecasting-accuracy" 
-# m5-forecasting-accuracy
-# m5-forecasting-accuracy
-# m5-forecastin-accuracy
-# m5-forecasting-accuracy
+* For model training open the notebook '**../model_training/m5_forecasting.ipynb**' in Google Colab and can execute the code
+* For UI application, open up the terminal and execute below commands
+* **make install** -- to install the dependencies which looks up the requirements.txt file for package list
+* **make run** -- to run the app locally, which launches with port '8085'
+* Dependencies - Python 3 to be pre-installed
